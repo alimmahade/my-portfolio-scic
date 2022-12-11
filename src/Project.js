@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import pic from "../src/Asset/img/pic-1.jpg";
 import picb from "../src/Asset/img/pic-2.jpg";
 import picc from "../src/Asset/img/pic-3.jpg";
@@ -21,8 +22,11 @@ const Project = () => {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <button className="btn btn-primary">Show Details</button>
+                <button className="btn btn-primary">Live Site</button>
               </a>
+              <Link to="/project1">
+                <button className="btn btn-primary">Project Details</button>
+              </Link>
             </div>
           </div>
         </div>
@@ -35,8 +39,11 @@ const Project = () => {
             <p>Product buy and sell/E-commerce website</p>
             <div className="card-actions">
               <a href="https://as-12-ph.web.app/">
-                <button className="btn btn-primary">Show Details</button>
+                <button className="btn btn-primary">Live Site</button>
               </a>
+              <Link to="/project2">
+                <button className="btn btn-primary">Project Details</button>
+              </Link>
             </div>
           </div>
         </div>
@@ -53,8 +60,11 @@ const Project = () => {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <button className="btn btn-primary">Show Details</button>
+                <button className="btn btn-primary">Live Site</button>
               </a>
+              <Link to="/project3">
+                <button className="btn btn-primary">Project Details</button>
+              </Link>
             </div>
           </div>
         </div>

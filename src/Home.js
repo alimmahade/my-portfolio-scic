@@ -25,7 +25,6 @@ const Home = () => {
               >
                 <button className="btn btn-primary">Download Resume</button>
               </a>
-              <button className="btn btn-primary ml-8">Contact me</button>
             </div>
           </div>
         </div>

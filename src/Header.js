@@ -37,9 +37,15 @@ const Header = () => {
                 Contact Me
               </Link>
             </li>
+
             <li>
-              <Link to="/" className="text-2xl">
-                Projects
+              <Link to="/aboutme" className="text-2xl">
+                About me
+              </Link>
+            </li>
+            <li>
+              <Link to="/blog" className="text-2xl">
+                My Blog
               </Link>
             </li>
           </ul>
@@ -62,8 +68,13 @@ const Header = () => {
             </Link>
           </li>
           <li>
-            <Link to="/" className="text-2xl">
-              Projects
+            <Link to="/aboutme" className="text-2xl">
+              About me
+            </Link>
+          </li>
+          <li>
+            <Link to="/blog" className="text-2xl">
+              My Blog
             </Link>
           </li>
         </ul>
